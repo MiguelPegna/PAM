@@ -1,0 +1,7 @@
+#guarda este archivo como .htaccess para que pueda funcionar los redireccionamientos
+Options All -Indexes
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]   #ruta principal del proyecto

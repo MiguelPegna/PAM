@@ -1,0 +1,312 @@
+.caja{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+.eye{
+    cursor: pointer;
+}
+
+/*
+.input-format{
+    border-bottom: 1px double green;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+*/
+
+.i-format{
+    width: 100%;
+}
+.banner{
+    /*background: transparent url(https://www.gob.mx/cms/uploads/identity/image/36452/background_E27A2C47-022D-489D-97AE-4C6D58884185.jpeg) no-repeat center top;*/
+    background: transparent url(/PAM/frame/images/background_E27A2C47-022D-489D-97AE-4C6D58884185.jpg) no-repeat center top; 
+    background-size: cover; top:0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.a-menu{
+    background-color:rgb(20, 70, 45);
+    padding: 0.53rem 0 0.53rem;
+    color: #fff;
+    border-radius: 0.83rem; 
+}
+.op-menu a:link, a:visited { 
+    color: #000;
+    text-decoration: none;    
+}
+
+.op-menu a:hover, a:active { 
+    font-weight: bold; 
+    color: #777; 
+}
+.f-user{
+    font-size: 2.5rem;
+    font-style: bold;
+    color:#fff;
+}
+.f-cargo{
+    font-size: 1.8rem;
+    font-style: bold;
+    color:#fff;
+}
+.f-rol{
+    font-size: 1.5rem;
+    font-style: italic;
+    color:#fff;
+}
+/*clase para evitar repeticion de opcion en select*/
+.opSelect{
+    display: none;
+}
+.form-controlS {
+    width: 80%;
+   
+}
+/*clase para ventanas modales de eliminar elemento*/
+.espacio{
+    margin: .5rem;
+}
+/*clase para espacio de loas vistas*/
+.espacio1{
+    margin: 2rem;
+}
+
+.acomodoText{
+    text-align:left;
+    font-weight:bold;
+}
+
+.acomodo{
+    padding-top: 3.5rem;
+    padding-left: 0px;
+}
+.cursor{
+    cursor:pointer;
+}
+.barraTitle{
+    width: 100%;
+    height: 20%;
+    background-color: #393C3E;
+    color: #fff;
+    padding: 1rem;
+    font-size: 2.7rem;
+    text-align: center;
+    position: absolute;
+    top:0%;
+}
+.top-espacio{
+    margin-top: 10rem;
+}
+
+.form-modal{
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-bottom: 1.5rem;
+}
+.td-a{
+    padding-bottom: 10px;
+}
+input[type="checkbox"]{
+    font-weight: bold;
+    line-height: 3em;
+    color: #ccc;
+}
+input[type="checkbox"]:checked{
+    color: #0fbf12;
+}
+
+.input-search {
+    background-color: #EEEEEE;
+    border-top: 1px solid #d6d4d4;
+    cursor: pointer;
+    padding: 5px;
+    width: 93%;
+    float: left;
+    position: absolute;
+    z-index: 9999;
+    
+}
+
+.input-search1 {
+    background-color: #EEEEEE;
+    border-top: 1px solid #d6d4d4;
+    cursor: pointer;
+    padding: 5px;
+    width: 28%;
+    float: left;
+    position: absolute;
+    z-index: 9999;
+    
+}
+/*estilos para minuta pdf*/
+
+.logo img{
+    width: 100%;
+}
+.reporte{
+    table-layout: fixed;
+    width: 100%;
+}
+.tab-reporte{
+    width:33.3%;
+    word-wrap: break-word;
+    background-color:#14462D;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #000; 
+}
+
+.cell-reporte{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #000; 
+}
+
+.separar{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.pie-pag-logo{
+    background: transparent url(/PAM/resources/logos/pie-pag.png); 
+    
+}
+.pie-pag{
+    color: #C6AF83;
+    font-size: 16px;
+    margin:0px;
+
+}
+
+/*Estilos para el reporte de evidenciaspdf*/
+
+.logo img{
+    width: 100%;
+}
+.reporte{
+    table-layout: fixed;
+    width: 100%;
+}
+.tab-reporteEv{
+    width:33.3%;
+    word-wrap: break-word;
+    background-color:#a22244;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #000; 
+}
+
+.cell-reporte{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #000; 
+}
+
+.separar{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.pie-pag-logo{
+    background: transparent url(/PAM/resources/logos/pie-pag.png); 
+    
+}
+.pie-pag{
+    color: #C6AF83;
+    font-size: 16px;
+    margin:0px;
+
+}
+
+/*CARD FLIPP ROLES*/
+.flip-card {
+    background-color: transparent; 
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 10px 0 rgba(90,90,90,0.2);
+  }
+  
+  
+  .flip-card.flipped .flip-card-inner {   
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-back {
+  
+    transform: rotateY(180deg);
+  }
+
+  /*Boton add Participante*/
+.btn-rec{  
+    border-radius: 10%;
+    border: 1px solid #777; 
+    background-color: #14462D;
+    font-size: 2rem;
+    color:#fff;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+}
+.btn-rec:hover{
+    background-color: #137343;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 10px 0 rgba(90,90,90,0.2);
+}
+/*Boton quitar Acuerdo*/
+.btn-circle-danger{  
+    border-radius: 50%;
+    border: 1px solid #DA1100;
+    background-color: #fff;
+    font-size: 1.5rem;
+    color:#DA1100;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+.btn-circle-danger:hover{
+    background-color: #F61805;
+    color: #fff;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 10px 0 rgba(90,90,90,0.2);
+}
+/*Boton quitar Acuerdo*/
+.btn-circle-success{  
+    border-radius: 50%;
+    border: 1px solid #14462D; 
+    background-color: #fff;
+    font-size: 1.5rem;
+    color:#14462D;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+.btn-circle-success:hover{
+    background-color: #137343;
+    color:#fff;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 8px 10px 0 rgba(90,90,90,0.2);
+}
+
+

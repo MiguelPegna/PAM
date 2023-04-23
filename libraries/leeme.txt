@@ -1,0 +1,4 @@
+Instala las sig librerias en las respectivas carpetas para hacer uso total de la aplicacion
+domPDF -- Generar pdf
+PHPExcel -- generar Excel
+PHPMailer --Enviar emails

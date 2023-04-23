@@ -1,0 +1,10 @@
+libraries/domPDF/vendor
+libraries/domPDF/composer
+libraries/domPDF/composer.lock
+libraries/pdfGen/vendor
+libraries/pdfGen/composer
+libraries/pdfGen/composer.lock
+libraries/PHPExcel/vendor
+libraries/PHPExcel/composer
+libraries/PHPExcel/composer.lock
+libraries/PHPMailer
